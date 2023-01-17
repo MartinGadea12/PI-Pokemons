@@ -1,0 +1,119 @@
+* {
+  text-decoration: none;
+}
+
+body{
+  background-color:rgba(182, 174, 170, 0.562)
+}
+
+.createPoke{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.titulo{
+  color:#000000;
+  font-size: 50px;
+  font-weight:1000;
+  text-align: left;
+}
+
+.nav{
+  background-image: url("../../image/imagen4.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 5px;
+  padding: 40px;
+  padding-top: 1px;
+
+}
+.card {
+  width: 340px;
+  height: 450px;
+  background-image: linear-gradient(163deg, #ffa600 0%, #ff0000 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 340px;
+  height: 450px;
+  background-color: #000000;
+  border-radius:10px;
+  transition: all .2s;
+  box-shadow: #f80404;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(255, 0, 0, 0.3);
+ }
+
+
+ .name{
+  text-align: center;
+  text-anchor: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+ }
+
+ .types{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+ }
+
+ 
+ button {
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  padding: 1em 2.5em 1em 2.5em;
+  border: none;
+  background: #fff;
+  transition: all 0.1s linear;
+  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+ }
+ 
+ button:active {
+  transform: scale(0.95);
+ }
+ 
+ button span {
+  color: #464646;
+ }
+ 
+ button .border {
+  position: absolute;
+  border: 0.15em solid #fff;
+  transition: all 0.3s 0.08s linear;
+  top: 50%;
+  left: 50%;
+  width: 9em;
+  height: 3em;
+  transform: translate(-50%, -50%);
+ }
+ 
+ button:hover .border {
+  display: block;
+  width: 9.9em;
+  height: 3.7em;
+ }
+ 
+ .full-rounded {
+  border-radius: 2em;
+ }

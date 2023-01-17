@@ -1,0 +1,52 @@
+.filtros{
+
+}
+
+hr{
+  height: 10px;
+  width: 70%;
+  background-color: black;
+}
+
+
+.inputSearch {
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 6px 10px;
+    background: transparent;
+    max-width: 150px;
+   }
+   
+   .inputSearch:active {
+    box-shadow: 2px 2px 15px #ff0000 inset;
+   }
+
+/* 
+   .btn {
+    width: 80px;
+    height: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #171717;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    transition: all .4s;
+   }
+   
+   .btn:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #ff0000,
+     0 15px 0 -4px #ff7b00,
+     0 16px 10px -3px #fffb00;
+   }
+   
+   .btn:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #ff0000,
+     0 8px 0 -4px #ff7b00,
+     0 12px 10px -3px #fffb00;
+   } */

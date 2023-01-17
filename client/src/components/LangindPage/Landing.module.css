@@ -1,0 +1,44 @@
+
+
+.image{
+  background-image: url("../../image/imagen4.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  
+}
+
+.container {
+  background-position: center center;
+    
+}
+
+ .name {
+  text-shadow: 3px 3px white;
+  font-weight: 800;
+  font-size: 75px;
+  display: flex;
+  padding-top: 100px
+
+}
+
+.info{
+  display: flex;
+  text-align: right;
+  padding: 10px;
+  font-size: 35px;
+  
+
+}
+
+.button{
+  
+  cursor: unset;
+  font-weight: 900;
+  border-width: 5px;
+  position: absolute;
+  margin: 100px;
+  padding: 10px;
+  
+} 

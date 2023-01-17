@@ -1,0 +1,54 @@
+.container{
+    background-image: url("../../image/imagen4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.input {
+    max-width: 98px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 0 1rem;
+    border: 2px solid #000000;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+  
+  .label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: 19px;
+    font-weight: 1000;
+    color: #000000;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .inputgroup:hover .label, .input:focus {
+    color: #000000c2;
+  }  
+
+
+  button,
+  button::after {
+   cursor: pointer;
+   padding: 16px 20px;
+   font-size: 18px;
+   font-weight: 800;
+   background: linear-gradient(45deg, transparent 5%, #f80303ce 5%);
+   border: 0;
+   color: rgb(255, 255, 255);
+   letter-spacing: 3px;
+   line-height: 1;
+   box-shadow: 6px 0px 0px #000000;
+   outline: transparent;
+   position: relative;
+  }
+  
+  
