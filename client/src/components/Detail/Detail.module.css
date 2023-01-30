@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.backgroundDetail {
+    background-image: url("../../image/imgDetail.png");
+    height: 100vh;
+    width: 100%;
+}
+
+.contBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.nameDetail{
+    display: table-column;
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-right: 30px;
+    font-weight: 1000;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.imgDetail {
+    display: flex;
+    margin-top: 85px;
+    margin-left: 200px;
+    width: 700px;
+    height: 350px;
+}
+
+
+.infoDetail {
+    display: table-column;
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-top: 120px;
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    
+
+}
+
+.btnDetail {
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.spanDetail {
+   
+    transform: skew(21deg);
+}
+
+.btnDetail::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #ff5400;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.btnDetail:hover {
+    color: #fff;
+}
+
+.btnDetail:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
